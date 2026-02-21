@@ -1,0 +1,34 @@
+{
+  "tech": {
+    "language_mode": "indian_english",
+    "elevenlabs_voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "music_mood": "upbeat_tech",
+    "prompt_file": "tech_prompt.txt",
+    "max_scenes": 6,
+    "hook_threshold_score": 70
+  },
+  "funny": {
+    "language_mode": "hinglish",
+    "elevenlabs_voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "music_mood": "funny_light",
+    "prompt_file": "funny_prompt.txt",
+    "max_scenes": 6,
+    "hook_threshold_score": 72
+  },
+  "bhakti": {
+    "language_mode": "hindi",
+    "elevenlabs_voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "music_mood": "devotional_soft",
+    "prompt_file": "bhakti_prompt.txt",
+    "max_scenes": 5,
+    "hook_threshold_score": 68
+  },
+  "mirzapuri": {
+    "language_mode": "hinglish",
+    "elevenlabs_voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "music_mood": "desi_dramatic",
+    "prompt_file": "mirzapuri_prompt.txt",
+    "max_scenes": 6,
+    "hook_threshold_score": 74
+  }
+}

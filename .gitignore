@@ -30,3 +30,13 @@ logs/
 audio/*.wav
 audio/*.mp3
 assets/downloaded/*
+
+# daily_shorts runtime artifacts
+daily_shorts/output/
+daily_shorts/logs/
+daily_shorts/final/
+daily_shorts/assets/cache/
+
+# shorts_factory runtime artifacts
+shorts_factory/output/
+shorts_factory/logs/

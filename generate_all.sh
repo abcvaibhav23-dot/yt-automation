@@ -18,12 +18,19 @@ if [[ ! -x "$PYTHON_BIN" ]]; then
 fi
 
 COMMON_FLAGS=(--ai-visuals --no-srt)
+AUDIO_MODE="${AUDIO_MODE:-voice}"
+BGM_PATH="${BGM_PATH:-}"
+EXTRA_AUDIO_FLAGS=(--audio-mode "$AUDIO_MODE")
+if [[ -n "$BGM_PATH" ]]; then
+  EXTRA_AUDIO_FLAGS+=(--bg-music "$BGM_PATH")
+fi
 
 # First run performs fresh cleanup (default behavior).
 "$PYTHON_BIN" -m shorts_factory.src.main \
   --channel "Tech Daily" \
   --style tech \
   --voice-lang "$EN_VOICE_LANG" \
+  "${EXTRA_AUDIO_FLAGS[@]}" \
   "${COMMON_FLAGS[@]}"
 
 # Remaining runs keep history so all videos remain in output.
@@ -32,6 +39,7 @@ COMMON_FLAGS=(--ai-visuals --no-srt)
   --style funny \
   --voice-lang "$EN_VOICE_LANG" \
   --keep-history \
+  "${EXTRA_AUDIO_FLAGS[@]}" \
   "${COMMON_FLAGS[@]}"
 
 "$PYTHON_BIN" -m shorts_factory.src.main \
@@ -39,6 +47,7 @@ COMMON_FLAGS=(--ai-visuals --no-srt)
   --style bhakti \
   --voice-lang "$HI_VOICE_LANG" \
   --keep-history \
+  "${EXTRA_AUDIO_FLAGS[@]}" \
   "${COMMON_FLAGS[@]}"
 
 "$PYTHON_BIN" -m shorts_factory.src.main \
@@ -47,6 +56,7 @@ COMMON_FLAGS=(--ai-visuals --no-srt)
   --region "$REGION" \
   --voice-lang "$HI_VOICE_LANG" \
   --keep-history \
+  "${EXTRA_AUDIO_FLAGS[@]}" \
   "${COMMON_FLAGS[@]}"
 
 echo "Done: generated tech, funny, bhakti, regional ($REGION)."

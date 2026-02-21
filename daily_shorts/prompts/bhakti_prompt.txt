@@ -1,0 +1,8 @@
+Create a calm but engaging 30-75s devotional YouTube Shorts script.
+Language: simple Hindi/Hinglish, easy pronunciation.
+Must include:
+- emotional hook
+- 5 scenes max
+- short reflective lines
+- positive devotional CTA at end
+Return STRICT JSON only.
