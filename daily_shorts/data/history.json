@@ -1,0 +1,192 @@
+{
+  "used_topics": [
+    "local market stories",
+    "office late excuses",
+    "funny roommate habits",
+    "focus hacks",
+    "social media habits",
+    "productivity traps",
+    "morning routine mistakes",
+    "small wins motivation",
+    "phone battery myths",
+    "temple morning calm"
+  ],
+  "runs": [
+    {
+      "ts": "2026-02-21T11:07:50.125390",
+      "topic": "local market stories",
+      "channel": "funny",
+      "score": 70,
+      "hook_variant": "local market stories ke baare mein sabse badi galti kya hai?",
+      "duration": 16.207528999999997,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 1,
+        "pixabay": 6,
+        "pexels": 0
+      }
+    },
+    {
+      "ts": "2026-02-21T11:15:36.850701",
+      "topic": "office late excuses",
+      "channel": "funny",
+      "score": 70,
+      "hook_variant": "office late excuses ke baare mein sabse badi galti kya hai?",
+      "duration": 47.99866300000001,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 0,
+        "pixabay": 6,
+        "pexels": 6
+      }
+    },
+    {
+      "ts": "2026-02-21T11:18:21.002354",
+      "topic": "funny roommate habits",
+      "channel": "funny",
+      "score": 70,
+      "hook_variant": "funny roommate habits ke baare mein sabse badi galti kya hai?",
+      "duration": 47.998346,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 0,
+        "pixabay": 6,
+        "pexels": 6
+      }
+    },
+    {
+      "ts": "2026-02-21T11:30:57.593852",
+      "topic": "focus hacks",
+      "channel": "funny",
+      "score": 64,
+      "hook_variant": "focus hacks mein sabse badi galti kya hai?",
+      "duration": 47.99966,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 6,
+        "pixabay": 6,
+        "pexels": 6
+      }
+    },
+    {
+      "ts": "2026-02-21T11:39:27.837580",
+      "topic": "social media habits",
+      "channel": "funny",
+      "score": 64,
+      "hook_variant": "social media habits mein sabse badi galti kya hai?",
+      "duration": 47.99932,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 2,
+        "pixabay": 6,
+        "pexels": 6
+      }
+    },
+    {
+      "ts": "2026-02-21T11:45:15.314520",
+      "topic": "productivity traps",
+      "channel": "funny",
+      "score": 64,
+      "hook_variant": "productivity traps mein sabse badi galti kya hai?",
+      "duration": 47.999047,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 2,
+        "pixabay": 6,
+        "pexels": 0
+      }
+    },
+    {
+      "ts": "2026-02-21T12:05:27.178682",
+      "topic": "morning routine mistakes",
+      "channel": "bhakti",
+      "score": 73,
+      "hook_variant": "Ruko... morning routine mistakes ka secret truth kya hai, pata hai?",
+      "duration": 27.301134,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 3,
+        "pixabay": 5,
+        "pexels": 5
+      }
+    },
+    {
+      "ts": "2026-02-21T12:20:02.950681",
+      "topic": "small wins motivation",
+      "channel": "bhakti",
+      "score": 73,
+      "hook_variant": "Wait... small wins motivation mein aapki #1 hidden mistake kya hai?",
+      "duration": 26.300748,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 5,
+        "pixabay": 5,
+        "pexels": 2
+      }
+    },
+    {
+      "ts": "2026-02-21T12:32:32.809631",
+      "topic": "phone battery myths",
+      "channel": "funny",
+      "score": 73,
+      "hook_variant": "phone battery myths karte waqt aapka hidden mistake kya hai?",
+      "duration": 30.291790999999996,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 4,
+        "pixabay": 30,
+        "pexels": 30
+      }
+    },
+    {
+      "ts": "2026-02-21T12:34:36.583125",
+      "topic": "temple morning calm",
+      "channel": "funny",
+      "score": 76,
+      "hook_variant": "Wait... temple morning calm mein aapki #1 hidden mistake kya hai?",
+      "duration": 28.211111999999996,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 5,
+        "pixabay": 18,
+        "pexels": 18
+      }
+    },
+    {
+      "ts": "2026-02-21T12:36:47.350520",
+      "topic": "morning routine mistakes",
+      "channel": "funny",
+      "score": 73,
+      "hook_variant": "morning routine mistakes karte waqt aapka hidden mistake kya hai?",
+      "duration": 31.499999999999996,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 5,
+        "pixabay": 1,
+        "pexels": 1
+      }
+    },
+    {
+      "ts": "2026-02-21T13:01:26.083261",
+      "topic": "productivity traps",
+      "channel": "mirzapuri",
+      "score": 76,
+      "hook_variant": "Wait... productivity traps mein aapki #1 hidden mistake kya hai?",
+      "scene_texts": [
+        "Wait... productivity traps mein aapki #1 hidden mistake kya hai?",
+        "productivity traps ka scene simple lagta hai, par pressure high hota hai.",
+        "Yahan confidence aur caution ka balance zaroori hota hai.",
+        "Fix: pehle observe karo, phir action lo.",
+        "Twist: jeet force se nahi, rhythm se milti hai.",
+        "Aisa moment aapke saath hua ho toh comment mein batao."
+      ],
+      "duration": 23.20501,
+      "api_calls": {
+        "openai": 0,
+        "elevenlabs": 6,
+        "pixabay": 6,
+        "pexels": 5
+      }
+    }
+  ]
+}

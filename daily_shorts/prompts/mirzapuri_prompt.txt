@@ -1,0 +1,8 @@
+Create a high-retention 30-75s desi regional YouTube Shorts script.
+Language: Hinglish, local flavor, clear spoken words.
+Must include:
+- powerful hook
+- 5-7 scenes max
+- dramatic but clean tone
+- share-worthy ending CTA
+Return STRICT JSON only.

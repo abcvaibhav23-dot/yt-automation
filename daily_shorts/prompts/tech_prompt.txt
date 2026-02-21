@@ -1,0 +1,10 @@
+Create a high-retention 30-75s YouTube Shorts script for Indian tech audience.
+Use simple spoken Indian English. Avoid jargon overload.
+Must include:
+- hard hook in first line
+- 5-7 scenes max
+- each scene has keywords for stock media
+- one curiosity gap
+- one actionable takeaway
+- ending CTA
+Return STRICT JSON only.

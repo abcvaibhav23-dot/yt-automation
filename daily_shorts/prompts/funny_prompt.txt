@@ -1,0 +1,9 @@
+Create a high-retention 30-75s YouTube Shorts script for general Indian audience.
+Language: Hinglish (Roman script), easy to speak, no tongue twisters.
+Style: funny, relatable, fast paced.
+Must include:
+- hilarious hook in first line
+- 5-7 scenes max
+- one twist
+- one punchline CTA ending
+Return STRICT JSON only.
